@@ -1,0 +1,179 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: rgb(44, 42, 42);
+    
+}
+
+form {
+    margin: auto;
+    background: linear-gradient(135deg, rgba(36, 36, 36, 0.7),   rgba(0, 0, 0, 0.5),  rgba(0, 0, 0, 0.986)    
+);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 60px;
+    max-width: 1000px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+#resume-form{
+    justify-content: center;
+    align-items: center; 
+}
+
+form::before{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    z-index: -1;
+}
+
+form::after{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    z-index: -2;
+    filter: blur(20px);
+}
+
+form::after , form::before{
+    background: linear-gradient(235deg , #53d5e9 , #060c21  , #3939e6);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+}
+
+fieldset {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: linear-gradient(235deg , #0e6eff , #253f74  , #0f09bf);
+    
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+
+}
+
+input,textarea {
+    margin-top: 4px;
+    padding: 15px;
+    width: calc(100% - 1px);
+    border: 1px solid skyblue;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 300px;
+    background-color: rgb(9, 183, 251);
+    color: black;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: blue;
+}
+
+#resume-display {
+    max-width: 600px;
+    margin: auto;
+    padding: 40px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    position: relative;
+    background: linear-gradient(235deg , #ffffff , #55575a  , #272729);
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    outline: none;
+}
+
+
+
+
+#shareable-block{
+    display: none;
+    margin: auto;
+}
+
+#shareable-link-container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+#shareable-link-container h2{
+    font-size: 40px;
+    color: #ffffff;
+    margin: 0;
+}
+#shareable-link-container p{
+    margin: 0;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+#resume-display {
+    position: relative;
+    background: linear-gradient(235deg , #292e36 , #253f74  , #272729);
+
+}
+
+#resume-display h3{
+    color: #ffffff;
+    font-size: 35px;
+}
+
+#resume-display span{
+    color: #ffffff;
+    font-size: 18px;
+}
+
+#resume-display h2{
+    color: #ffffff;
+    font-size: 50px;
+}
+
+#resume-display p{
+    color: #ffffff;
+    font-size: 18px;
+}
+
+#resume-display b{
+    color: #ffffff;
+    font-size: 18px;
+}
